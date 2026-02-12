@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+
+*{box-sizing: border-box;}
+h1 {
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+      font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.foto1 {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: left;
+    background-color: white;
+    width: 400px;
+
+    margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+    border: 3px solid blue
+}
+
+.encabezado {
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pie {
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: left;
+     font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.foto2-img {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+
+
+.foto3-img {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+.foto4-img {
+    max-width: 100%;
+    height: auto;
+  
+}
+p {
+    text-decoration: underline;
+}
+.fa-heart{ color: red; } 
+.fa-comment{ color: blue; } 
